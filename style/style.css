@@ -1,0 +1,123 @@
+body {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.mian {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-nav a {
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+
+.middle-area {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: palevioletred;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.cart-image img {
+    width: 100%;
+    height: 100%;
+    margin-left: 150px;
+}
+
+.cart-details {
+    margin-top: 100px;
+    height: 500px;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons img {
+    margin: 20px;
+}
+
+.carts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+}
+
+div.cart {
+    box-shadow: 10px 10px 10px 0px gray, 10px 10px 10px 0 gray;
+
+    width: 300px;
+    padding: 10px;
+}
+
+.cart-star {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.cart-star p {
+    margin: 10px;
+}
+
+.cart-star a {
+    text-decoration: none;
+    margin: .5px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.last-stage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last-text {
+    width: 500px;
+}
+
+footer {
+    height: 200px;
+    width: auto;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.font-icon a {
+    margin: 10px;
+}
+
+@media only screen and (max-width:688px) {
+    footer {
+        background-color: red;
+    }
+}
